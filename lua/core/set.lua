@@ -1,6 +1,4 @@
--- Options
 vim.opt.clipboard = unnamedplus
-vim.opt.completeopt = noinsert,menuone,noselect
 vim.opt.cursorline = true
 vim.opt.hidden = true
 vim.opt.inccommand = split
@@ -15,3 +13,6 @@ vim.opt.wildmenu = true
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
+vim.opt.smartindent = true
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
