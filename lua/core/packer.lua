@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'airblade/vim-gitgutter'
   use 'shaunsingh/nord.nvim'
+  use 'nyoom-engineering/oxocarbon.nvim'
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
